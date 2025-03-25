@@ -8,7 +8,7 @@ Este documento define os padrões de nomenclatura de branch e commits utilizados
 
 As branches devem seguir o formato:
 ```
-<prefixo>/<número-da-issue>
+<prefixo>/<descrição>-<número-da-issue>
 ```
 - Sempre em **letra minúscula**.
 - O `número-da-issue` deve corresponder ao ID da tarefa no sistema de gerenciamento de projetos.
@@ -28,8 +28,7 @@ As branches devem seguir o formato:
 
 **Exemplo:**
 ```
-feat/123-adicionar-botao-de-login
-fix/456-corrigir-bug-no-formulario
+feat/autenticacao-5
 ```
 
 ---
