@@ -61,3 +61,33 @@ feat: adicionar botão de login
 fix: corrigir erro no envio de formulário
 refactor: otimizar função de cálculo de frete
 ```
+---
+
+## Padrões de Nomenclatura de Pull Request
+
+As pull requests devem seguir o formato:
+```
+<prefixo>/<descrição>-<número-da-issue>
+```
+- O `número-da-issue` deve corresponder ao ID da tarefa no sistema de gerenciamento de projetos.
+
+### Prefixos permitidos:
+
+| Prefixo   | Uso                                                             |
+|-----------|-----------------------------------------------------------------|
+| `feat`    | Adição de uma nova funcionalidade ao projeto.                   |
+| `fix`     | Correção de um bug no código.                                   |
+| `chore`   | Alterações de manutenção, sem impacto no código de produção.    |
+| `docs`    | Atualizações na documentação.                                   |
+| `style`   | Mudanças estéticas, como formatação ou espaçamento.             |
+| `refactor`| Melhorias na estrutura do código sem alterar funcionalidade.    |
+| `test`    | Adição ou modificação de testes automatizados.                  |
+| `ci`      | Configurações e ajustes no pipeline de integração contínua.     |
+| `merge`   | Sincronização de duas branches.                                 |
+
+**Exemplo:**
+```
+feat/autenticacao-5
+merge: primeira sincronização da branch dev com a main
+```
+
